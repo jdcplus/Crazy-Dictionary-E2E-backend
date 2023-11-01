@@ -14,7 +14,7 @@ import heroku.spring.starter.controller.WordFromDictionary;
 @Service
 public class SearchService {
 
-	private final String URL = "http://www.dictionaryapi.com/api/v3/references/collegiate/json/"; // Put your api URL here
+	private final String URL = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/"; // Put your api URL here
 	private final String API_KEY = "abcde1234-abcd-abcd-abcd-abcde1234"; // Put your api key here
 
 	private RestTemplate template;
